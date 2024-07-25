@@ -811,7 +811,7 @@ const _nav = [
   },
   {
     component: CNavGroup,
-    name: 'CIPP',
+    name: 'DigitalBunker365',
     section: 'Settings',
     to: '/cipp/cipp',
     icon: <FontAwesomeIcon icon={faWrench} className="nav-icon" />,

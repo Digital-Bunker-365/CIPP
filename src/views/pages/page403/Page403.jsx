@@ -6,7 +6,7 @@ const Page403 = () => {
   return (
     <div className="min-vh-100 d-flex flex-row align-items-center">
       <Helmet>
-        <title>CIPP - 403</title>
+        <title>DigitalBunker365 - 403</title>
       </Helmet>
       <CContainer>
         <CRow className="justify-content-center">

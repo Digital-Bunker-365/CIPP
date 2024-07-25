@@ -34,7 +34,7 @@ const App = () => {
       <HelmetProvider>
         <Suspense fallback={<FullScreenLoading />}>
           <Helmet>
-            <title>CIPP</title>
+            <title>DigitalBunker365</title>
           </Helmet>
           <Routes>
             <Route exact path="/LogoutRedirect" name="LogoutRedirect" element={<PageLogOut />} />

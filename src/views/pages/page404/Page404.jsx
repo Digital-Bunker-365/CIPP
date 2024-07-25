@@ -8,7 +8,7 @@ const Page404 = () => {
   return (
     <div className="min-vh-100 d-flex flex-row align-items-center">
       <Helmet>
-        <title>CIPP - 404</title>
+        <title>DigitalBunker365 - 404</title>
       </Helmet>
       <CContainer>
         <CRow className="justify-content-center">

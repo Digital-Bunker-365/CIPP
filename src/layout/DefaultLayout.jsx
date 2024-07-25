@@ -83,7 +83,7 @@ const DefaultLayout = () => {
   return (
     <>
       <Helmet>
-        <title>CIPP - {title}</title>
+        <title>DigitalBunker365 - {title}</title>
       </Helmet>
       <div>
         <FastSwitcherModal />
