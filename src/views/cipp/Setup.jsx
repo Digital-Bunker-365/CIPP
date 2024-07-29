@@ -202,10 +202,13 @@ const Setup = () => {
                   here
                 </a>
               </li>
-              <li>(Temporary) Global Administrator permissions for the DigitalBunker365 Service Account</li>
               <li>
-                Multi-factor authentication enabled for the DigitalBunker365 Service Account, with no trusted
-                locations or other exclusions.
+                (Temporary) Global Administrator permissions for the DigitalBunker365 Service
+                Account
+              </li>
+              <li>
+                Multi-factor authentication enabled for the DigitalBunker365 Service Account, with
+                no trusted locations or other exclusions.
               </li>
             </p>
             <CCol md={12}>
