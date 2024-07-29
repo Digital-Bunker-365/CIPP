@@ -251,7 +251,7 @@ const TenantDashboard = () => {
           <CDropdown variant="btn-group">
             <CDropdownToggle color={buttonColor}>
               <FontAwesomeIcon icon="external-link" className="me-2" />
-              CIPP Actions
+              DigitalBunker365 Actions
             </CDropdownToggle>
             <CDropdownMenu>
               {actions2.map((item, idx) => (

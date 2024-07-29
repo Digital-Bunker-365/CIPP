@@ -145,10 +145,11 @@ const AlertWizard = () => {
             </CCol>
             <CCol md={3}>
               <CippButtonCard
-                title="Scripted CIPP Alert"
+                title="Scripted DigitalBunker365 Alert"
                 CardButton={<CButton onClick={() => setAlertType('script')}>Select</CButton>}
               >
-                Select this option if you'd like to setup an alert based on data processed by CIPP
+                Select this option if you'd like to setup an alert based on data processed by
+                DigitalBunker365
               </CippButtonCard>
             </CCol>
           </CRow>

@@ -194,11 +194,14 @@ const TenantOnboardingWizard = () => {
         />
         <h5>Optional Settings</h5>
         <p>
-          Use these options for relationships created outside of the CIPP Invite Wizard or if the
-          SAM user is missing required GDAP groups from the Partner Tenant.
+          Use these options for relationships created outside of the DigitalBunker365 Invite Wizard
+          or if the SAM user is missing required GDAP groups from the Partner Tenant.
         </p>
         <RFFCFormSwitch name="autoMapRoles" label="Map missing groups to GDAP Roles" />
-        <RFFCFormSwitch name="addMissingGroups" label="Add CIPP SAM user to missing groups" />
+        <RFFCFormSwitch
+          name="addMissingGroups"
+          label="Add DigitalBunker365 SAM user to missing groups"
+        />
         <FormSpy>
           {/* eslint-disable react/prop-types */}
           {(props) => {

@@ -15,7 +15,7 @@ import { SettingsSuperAdmin } from './SettingsSuperAdmin.jsx'
 import { useLoadClientPrincipalQuery } from 'src/store/api/auth.js'
 
 /**
- * This function returns the settings page content for CIPP.
+ * This function returns the settings page content for DigitalBunker365.
  *
  * @returns {JSX.Element} The settings page content.
  */

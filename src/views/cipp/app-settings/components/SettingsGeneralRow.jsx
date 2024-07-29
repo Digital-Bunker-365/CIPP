@@ -166,8 +166,9 @@ export function SettingsGeneralRow() {
             CardButton={cacheButton}
           >
             <small>
-              Use this button to clear the caches used by CIPP. This will slow down some aspects of
-              the application, and should only be used when instructed to do so by support.
+              Use this button to clear the caches used by DigitalBunker365. This will slow down some
+              aspects of the application, and should only be used when instructed to do so by
+              support.
             </small>
             {clearCacheResult.isSuccess && !clearCacheResult.isFetching && (
               <CippCallout
@@ -197,10 +198,10 @@ export function SettingsGeneralRow() {
             />
             <CRow className="mb-3">
               <small>
-                Use this button to backup the system configuration for CIPP. This will not include
-                authentication information or extension configuration. You can also set an automated
-                daily backup schedule by clicking the button below. This will create a scheduled
-                task for you.
+                Use this button to backup the system configuration for DigitalBunker365. This will
+                not include authentication information or extension configuration. You can also set
+                an automated daily backup schedule by clicking the button below. This will create a
+                scheduled task for you.
               </small>
             </CRow>
             {restoreBackupResult.isSuccess && !restoreBackupResult.isFetching && (

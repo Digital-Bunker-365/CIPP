@@ -161,9 +161,9 @@ const CreateBackup = () => {
                   return (
                     <CForm id="addTask" onSubmit={handleSubmit}>
                       <p>
-                        Backups are stored in CIPPs storage and can be restored using the CIPP
-                        Restore Backup Wizard. Backups run daily or on demand by clicking the backup
-                        now button.
+                        Backups are stored in DigitalBunker365 storage and can be restored using the
+                        DigitalBunker365 Restore Backup Wizard. Backups run daily or on demand by
+                        clicking the backup now button.
                       </p>
                       <CRow className="mb-3">
                         <CCol>
@@ -194,7 +194,7 @@ const CreateBackup = () => {
                             name="intuneprotection"
                             label="Intune Protection Policies"
                           />
-                          <h3 className="underline mb-4">CIPP</h3>
+                          <h3 className="underline mb-4">DigitalBunker365</h3>
                           <RFFCFormSwitch
                             name="CippWebhookAlerts"
                             label="Webhook Alerts Configuration"

@@ -53,7 +53,7 @@ export function SettingsSuperAdmin() {
               <CCol sm={12} md={6} lg={8} className="mb-3">
                 <p className="me-1">
                   The configuration settings below should only be modified by a super admin. Super
-                  admins can configure what tenant mode CIPP operates in. See
+                  admins can configure what tenant mode DigitalBunker365 operates in. See
                   <CLink
                     href="https://docs.cipp.app/setup/installation/owntenant"
                     target="_blank"

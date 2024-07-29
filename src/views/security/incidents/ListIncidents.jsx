@@ -77,7 +77,7 @@ const ListIncidents = () => {
     let displayAssign = row['AssignedTo']
     let displayRedirectedId = row['RedirectId']
     if (!userAssign) {
-      userAssign = '' // Stops Microsoft setting the CIPP app as the user assigned if left null
+      userAssign = '' // Stops Microsoft setting the DigitalBunker365 app as the user assigned if left null
       displayAssign = 'unassigned' // Instead of showing empty or 'null' in UI
     }
     if (!displayRedirectedId) {

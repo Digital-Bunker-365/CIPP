@@ -66,8 +66,8 @@ const GDAPWizard = () => {
           This tool is offered as-is, without support, warranties, or guarantees. If you are having
           GDAP migration problems, contact Microsoft via the Partner Support Center.
           <br />
-          Please remember to add the CIPP-SAM service principal to the GDAP groups you would like
-          CIPP to manage.
+          Please remember to add the DigitalBunker365-SAM service principal to the GDAP groups you
+          would like DigitalBunker365 to manage.
           <br /> <br />
           Use the button below to enable the GDAP migration API, you only need to enable this API
           once.
@@ -98,10 +98,10 @@ const GDAPWizard = () => {
         <hr className="my-4" />
         <CForm onSubmit={handleSubmit}>
           <CCallout color="info">
-            CIPP will create a single relationship with all roles you've selected for the maximum
-            duration of 730 days using a GUID as a random name for the relationship.
-            <br /> It is recommend to put CIPP user in the correct GDAP Role Groups to manage your
-            environment secure after deployment of GDAP.
+            DigitalBunker365 will create a single relationship with all roles you've selected for
+            the maximum duration of 730 days using a GUID as a random name for the relationship.
+            <br /> It is recommend to put DigitalBunker365 user in the correct GDAP Role Groups to
+            manage your environment secure after deployment of GDAP.
           </CCallout>
           <div className="mb-2">
             <TitleButton href="/tenant/administration/gdap-role-wizard" title="Map GDAP Roles" />

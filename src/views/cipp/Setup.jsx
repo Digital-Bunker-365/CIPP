@@ -118,9 +118,9 @@ const Setup = () => {
           <h5 className="card-title mb-4">Choose Options</h5>
         </center>
         <hr className="my-4" />
-        This wizard will guide you through setting up CIPPs access to your client tenants. If this
-        is your first time setting up CIPP you will want to choose the option "I would like CIPP to
-        create an application for me".
+        This wizard will guide you through setting up DigitalBunker365 access to your client
+        tenants. If this is your first time setting up DigitalBunker365 you will want to choose the
+        option "I would like DigitalBunker365 to create an application for me".
         <CCallout color="warning">
           To successfully finish setup you must follow the instructions{' '}
           <a
@@ -135,7 +135,7 @@ const Setup = () => {
           <RFFCFormRadio
             value="CreateSAM"
             name="SetupType"
-            label="I would like CIPP to create an application for me"
+            label="I would like DigitalBunker365 to create an application for me"
           ></RFFCFormRadio>
           <RFFCFormRadio
             value="RefreshTokensOnly"
@@ -153,7 +153,7 @@ const Setup = () => {
       <CippWizard.Page
         hideSubmit={true}
         title="Perform setup"
-        description="Perform setup to allow CIPP access to your M365 environment"
+        description="Perform setup to allow DigitalBunker365 access to your M365 environment"
       >
         <center>
           <h3 className="text-primary">Step 2</h3>
@@ -192,7 +192,7 @@ const Setup = () => {
               Click the button below to start the setup wizard. You will need the following
               prerequisites:
               <li>
-                A CIPP Service Account. For more information on how to create a service account
+                A DigitalBunker365 Service Account. For more information on how to create a service
                 click{' '}
                 <a
                   href="https://docs.cipp.app/setup/installation/samwizard"
@@ -202,9 +202,9 @@ const Setup = () => {
                   here
                 </a>
               </li>
-              <li>(Temporary) Global Administrator permissions for the CIPP Service Account</li>
+              <li>(Temporary) Global Administrator permissions for the DigitalBunker365 Service Account</li>
               <li>
-                Multi-factor authentication enabled for the CIPP Service Account, with no trusted
+                Multi-factor authentication enabled for the DigitalBunker365 Service Account, with no trusted
                 locations or other exclusions.
               </li>
             </p>

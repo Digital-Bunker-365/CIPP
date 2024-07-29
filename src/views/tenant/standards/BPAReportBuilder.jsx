@@ -230,7 +230,7 @@ const BPAReportBuilder = () => {
                     <CForm id="publishForm" onSubmit={handlePublish}>
                       <CRow>
                         <CCol>
-                          <CFormLabel>Store and Publish Report in CIPP</CFormLabel>
+                          <CFormLabel>Store and Publish Report in DigitalBunker365</CFormLabel>
                         </CCol>
                       </CRow>
                       <CRow className="mb-1">

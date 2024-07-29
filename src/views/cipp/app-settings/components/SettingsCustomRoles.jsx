@@ -268,8 +268,8 @@ const SettingsCustomRoles = () => {
       <>
         <p className="me-1">
           Custom roles can be used to restrict permissions for users with the 'editor' or 'readonly'
-          roles in CIPP. They can be limited to a subset of tenants and API permissions. To restrict
-          direct API access, create a role with the name 'CIPP-API'.
+          roles in DigitalBunker365. They can be limited to a subset of tenants and API permissions.
+          To restrict direct API access, create a role with the name 'DigitalBunker365-API'.
         </p>
         <p className="small">
           <FontAwesomeIcon icon="triangle-exclamation" className="me-2" /> This functionality is in
@@ -302,8 +302,8 @@ const SettingsCustomRoles = () => {
                         <WhenFieldChanges field="RoleName" set="BlockedTenants" />
                         {cippApiRoleSelected && (
                           <CCallout color="info">
-                            This role will limit access for the CIPP-API integration. It is not
-                            intended to be used for users.
+                            This role will limit access for the DigitalBunker365-API integration. It
+                            is not intended to be used for users.
                           </CCallout>
                         )}
                       </div>

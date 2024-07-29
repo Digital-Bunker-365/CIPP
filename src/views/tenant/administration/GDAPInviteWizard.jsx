@@ -199,13 +199,16 @@ const GDAPInviteWizard = () => {
         </center>
         <hr className="my-4" />
         <CForm onSubmit={handleSubmit}>
-          <RFFCFormSwitch name="easyMode" label="Use CIPP recommended roles and settings" />
+          <RFFCFormSwitch
+            name="easyMode"
+            label="Use DigitalBunker365 recommended roles and settings"
+          />
           <Condition when="easyMode" is={true}>
             <CCallout color="info">
               <p>
-                CIPP will create 12 new groups in your Azure AD environment if they do not exist,
-                and add the CIPP user to these 12 groups. The CIPP user will be added to the
-                following groups:
+                DigitalBunker365 will create 12 new groups in your Azure AD environment if they do
+                not exist, and add the DigitalBunker365 user to these 12 groups. The
+                DigitalBunker365 user will be added to the following groups:
               </p>
               <ul>
                 <li>M365 GDAP Application Administrator</li>
@@ -227,8 +230,8 @@ const GDAPInviteWizard = () => {
           </Condition>
           <Condition when="easyMode" is={false}>
             <CCallout color="info">
-              CIPP will create a single relationship with all roles you've selected for the maximum
-              duration of 730 days using a GUID as a random name for the relationship.
+              DigitalBunker365 will create a single relationship with all roles you've selected for
+              the maximum duration of 730 days using a GUID as a random name for the relationship.
             </CCallout>
 
             <div className="mb-2">
@@ -334,8 +337,8 @@ const GDAPInviteWizard = () => {
                         <>
                           <CCallout color="info">
                             <p>
-                              You have selected CIPP to manage your roles and groups. Invites will
-                              contain the following roles and groups
+                              You have selected DigitalBunker365 to manage your roles and groups.
+                              Invites will contain the following roles and groups
                             </p>
                             <ul>
                               <li>M365 GDAP Application Administrator</li>
@@ -370,7 +373,8 @@ const GDAPInviteWizard = () => {
                 The invites have been generated. You can view the results below. The
                 <strong className="m-1">invite link</strong> is to be used by a Global Administrator
                 of your clients Tenant. The<strong className="m-1">onboarding</strong>link is to be
-                used by a CIPP administrator to finish the process inside of CIPP.
+                used by a DigitalBunker365 administrator to finish the process inside of
+                DigitalBunker365.
               </p>
             </CCallout>
             <div style={{ width: '100%' }} className="mb-3">

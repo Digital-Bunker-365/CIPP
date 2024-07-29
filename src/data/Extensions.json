@@ -1,11 +1,11 @@
 [
   {
-    "name": "CIPP-API",
+    "name": "DigitalBunker365-API",
     "type": "CIPP-API",
     "cat": "API",
     "forceSyncButton": false,
     "disableWhenhosted": true,
-    "helpText": "This integration allows you to enable CIPP-API access outside of CIPP. Requires Global Administrator permissions inside your tenant for activation of the API. The API credentials will only be shown once.",
+    "helpText": "This integration allows you to enable DigitalBunker365-API access outside of DigitalBunker365. Requires Global Administrator permissions inside your tenant for activation of the API. The API credentials will only be shown once.",
     "SettingOptions": [
       {
         "type": "checkbox",

@@ -130,7 +130,7 @@ const TenantOffboardingWizard = () => {
                   <hr className="my-4" />
                   <RFFCFormSwitch
                     name="RemoveMultitenantCSPApps"
-                    label="Remove all multitenant applications originating from CSP tenant (including CIPP-SAM)."
+                    label="Remove all multitenant applications originating from CSP tenant (including DigitalBunker365-SAM)."
                   />
                   <RFFCFormSwitch
                     name="TerminateGDAP"

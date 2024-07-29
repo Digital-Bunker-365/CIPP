@@ -26,7 +26,7 @@ const BackendCardList = [
   {
     title: 'Resource Group',
     description:
-      'The Resource group contains all the CIPP resources in your tenant, except the SAM Application',
+      'The Resource group contains all the DigitalBunker365 resources in your tenant, except the SAM Application',
     link: 'ResourceGroup',
   },
   {
@@ -98,7 +98,7 @@ export function SettingsBackend() {
               </>
             }
           >
-            The Management Portal allows you to manage your CIPP resources for the hosted
+            The Management Portal allows you to manage your DigitalBunker365 resources for the hosted
             environment.
           </CippButtonCard>
         </>
