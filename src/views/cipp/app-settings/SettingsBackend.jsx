@@ -98,8 +98,8 @@ export function SettingsBackend() {
               </>
             }
           >
-            The Management Portal allows you to manage your DigitalBunker365 resources for the hosted
-            environment.
+            The Management Portal allows you to manage your DigitalBunker365 resources for the
+            hosted environment.
           </CippButtonCard>
         </>
       ) : (
